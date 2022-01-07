@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 17px 34px;
+}
+
+.mainLogo {
+  height: 32px;
+  width: 129px;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 11px;
+  color: #5b5b5b;
+  text-align: left;
+}
+
+.secondaryLogo {
+  height: 18px;
+  width: 72px;
+}
