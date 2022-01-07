@@ -1,3 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap");
+
 main {
   margin-left: 72px;
+  padding: 30px;
+}
+
+.title {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  color: #707070c4;
 }
