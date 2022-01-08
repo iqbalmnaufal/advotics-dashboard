@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap");
+
+.salesTurnover {
+  height: auto;
+  width: 276px;
+  margin-top: 30px;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font: normal normal normal 15px/25px "Source Sans Pro", sans-serif;
+  color: #43425d;
+  opacity: 0.5;
+}
+
+.icon {
+  height: 24px;
+  width: 12px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.itemPrice {
+  font: normal normal bold 25px/32px "Source Sans Pro", sans-serif;
+  color: #4d4f5c;
+}
+
+.itemInfo {
+  font: normal normal 300 10px/14px "Source Sans Pro", sans-serif;
+  color: #575757;
+  display: flex;
+  align-items: center;
+}
+
+.downArrow {
+  height: 10px;
+  width: 8px;
+  margin-right: 2px;
+}
+
+.itemPercentage {
+  font: normal normal bold 10px/14px "Source Sans Pro", sans-serif;
+  color: red;
+}
+
+.itemImage {
+  height: 43px;
+  width: 49px;
+}
