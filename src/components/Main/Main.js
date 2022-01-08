@@ -3,6 +3,7 @@ import SalesTurnover from "./SalesTurnover";
 
 import classes from "./Main.module.css";
 import ChartContainer from "./ChartContainer";
+import BestSelling from "./BestSelling";
 
 const Main = () => {
   return (
@@ -10,7 +11,10 @@ const Main = () => {
       <h1 className={classes.title}>Dashboard</h1>
       <MarketInsight />
       <SalesTurnover />
-      <ChartContainer />
+      <div className={classes.content}>
+        <ChartContainer />
+        <BestSelling />
+      </div>
     </main>
   );
 };
