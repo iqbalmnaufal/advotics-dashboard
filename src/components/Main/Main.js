@@ -4,6 +4,7 @@ import SalesTurnover from "./SalesTurnover";
 import classes from "./Main.module.css";
 import ChartContainer from "./ChartContainer";
 import BestSelling from "./BestSelling";
+import TopCompetitor from "./TopCompetitor";
 
 const Main = () => {
   return (
@@ -14,6 +15,7 @@ const Main = () => {
       <div className={classes.content}>
         <ChartContainer />
         <BestSelling />
+        <TopCompetitor />
       </div>
     </main>
   );
