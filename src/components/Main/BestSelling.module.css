@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
 .bestSelling {
   display: flex;
   flex-direction: column;
@@ -5,7 +7,7 @@
   border-radius: 2px;
   height: auto;
   width: 275px;
-  padding: 20px;
+  padding: 10px;
 }
 
 .header {
@@ -15,6 +17,8 @@
 }
 
 .title {
+  font: normal normal normal 20px/13px "Source Sans Pro";
+  color: #4d4f5c;
 }
 
 .iconMore {
@@ -42,17 +46,20 @@
 }
 
 .bestProductTitle {
+  font: normal normal normal 20px/25px "Source Sans Pro";
+  color: #000000de;
 }
 
 .infoPrice {
   display: flex;
   justify-content: space-between;
   margin-top: 7px;
+  font: normal normal normal 14px/20px "Source Sans Pro";
+  color: #00000099;
 }
 
 .products {
   display: flex;
-  /* background: #ffe7bd 0% 0% no-repeat padding-box; */
   height: 60px;
   border: 0.5px solid #c5c5c59c;
   border-radius: 4px;
@@ -70,10 +77,14 @@
 }
 
 .productsTitle {
+  font: normal normal normal 16px/20px "Source Sans Pro";
+  color: #000000de;
 }
 
 .productsPrice {
   display: flex;
   justify-content: space-between;
   margin-top: 2px;
+  font: normal normal normal 12px/20px "Source Sans Pro";
+  color: #00000099;
 }
