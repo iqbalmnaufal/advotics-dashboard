@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+.chartContainer {
+  height: auto;
+  width: 570px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  /* box-shadow: 0px 2px 6px #0000000a;
+  border: 0.5px solid #cdcdcd; */
+  border-radius: 2px;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0 40px 0;
+}
+
+.title {
+  font: normal normal normal 20px/13px "Source Sans Pro", sans-serif;
+  color: #4d4f5c;
+}
+
+.selectContainer {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.select {
+  position: relative;
+}
+
+.select option {
+  padding: 10px;
+}
+
+.iconMore {
+  margin-left: 10px;
+  width: 12px;
+  height: 24px;
+}
