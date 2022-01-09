@@ -32,6 +32,10 @@ cd advotics-dashboard
 ```
 Run this command to install the project to your computer
 ```
+npm install
+```
+to start the project, you can run this command
+```
 npm start
 ```
 for build this project, you can use this command
