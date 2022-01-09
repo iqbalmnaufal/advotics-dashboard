@@ -23,7 +23,7 @@ const TopCompetitor = () => {
       <div className={classes.competitors}>
         <img src={photoProduct} alt="Product" />
         <div className={classes.competitorsInfo}>
-          <h3 className={classes.competitorsTitle}>Susu Sapi</h3>
+          <h3 className={classes.competitorsTitle}>Paracetamol</h3>
           <div className={classes.productsPrice}>
             <p>Rp 20000</p>
             <p>32 pcs</p>
@@ -33,7 +33,7 @@ const TopCompetitor = () => {
       <div className={classes.competitors}>
         <img src={photoProduct} alt="Product" />
         <div className={classes.competitorsInfo}>
-          <h3 className={classes.competitorsTitle}>Susu Sapi</h3>
+          <h3 className={classes.competitorsTitle}>Susu Kedelai</h3>
           <div className={classes.productsPrice}>
             <p>Rp 20000</p>
             <p>32 pcs</p>
@@ -43,7 +43,7 @@ const TopCompetitor = () => {
       <div className={classes.competitors}>
         <img src={photoProduct} alt="Product" />
         <div className={classes.competitorsInfo}>
-          <h3 className={classes.competitorsTitle}>Susu Sapi</h3>
+          <h3 className={classes.competitorsTitle}>Susu Kambing</h3>
           <div className={classes.productsPrice}>
             <p>Rp 20000</p>
             <p>32 pcs</p>
@@ -53,7 +53,7 @@ const TopCompetitor = () => {
       <div className={classes.competitors}>
         <img src={photoProduct} alt="Product" />
         <div className={classes.competitorsInfo}>
-          <h3 className={classes.competitorsTitle}>Susu Sapi</h3>
+          <h3 className={classes.competitorsTitle}>Nutrisari</h3>
           <div className={classes.productsPrice}>
             <p>Rp 20000</p>
             <p>32 pcs</p>
