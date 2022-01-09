@@ -1,6 +1,6 @@
 # Advotics Dashboard
 
-## Live Demo
+## [Live Demo](http://advotics-dashboard.vercel.app/)
 
 ![](https://github.com/iqbalmnaufal/advotics-dashboard/blob/main/src/assets/demo.gif)
 
