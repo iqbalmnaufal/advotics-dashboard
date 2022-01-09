@@ -1,6 +1,6 @@
 # Advotics Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![](https://github.com/iqbalmnaufal/advotics-dashboard/blob/main/src/assets/demo.gif)
 
 ## Ingredients
 
