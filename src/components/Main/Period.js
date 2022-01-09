@@ -57,18 +57,14 @@ const Period = () => {
 
   const [isShow, setIsShow] = useState(false);
 
-  const chooseDate = () => {
-    setIsShow(true);
-  };
-
-  const closeDate = () => {
+  const toogleDate = () => {
     console.log("TES");
     setIsShow((val) => !val);
   };
 
   return (
     <div>
-      <div className={classes.container} onClick={closeDate}>
+      <div className={classes.container} onClick={toogleDate}>
         <div className={classes.title}>
           <img src={Calender} alt="calender" />
           <h2>Period</h2>
@@ -79,7 +75,7 @@ const Period = () => {
       </div>
 
       {isShow && (
-        <Modal onClose={closeDate}>
+        <Modal onClose={toogleDate}>
           <DateRangePicker
             onChange={(item) => setState([item.selection])}
             showSelectionPreview={true}
@@ -89,9 +85,11 @@ const Period = () => {
             direction="horizontal"
             className={classes.datePicker}
           />
-          <button className={classes.button} onClick={closeDate}>
-            Apply
-          </button>
+          <div className={classes.buttonParent}>
+            <button className={classes.button} onClick={toogleDate}>
+              Apply
+            </button>
+          </div>
         </Modal>
       )}
     </div>
