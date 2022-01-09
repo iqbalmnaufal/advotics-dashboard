@@ -34,7 +34,7 @@ Run this command to install the project to your computer
 ```
 npm install
 ```
-to start the project, you can run this command
+to start the project in your local, you can run this command
 ```
 npm start
 ```
