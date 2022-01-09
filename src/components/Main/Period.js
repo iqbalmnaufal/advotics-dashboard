@@ -58,7 +58,6 @@ const Period = () => {
   const [isShow, setIsShow] = useState(false);
 
   const toogleDate = () => {
-    console.log("TES");
     setIsShow((val) => !val);
   };
 

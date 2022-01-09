@@ -52,7 +52,6 @@ const option = {
           return "Date/Month/Year";
         },
         beforeLabel: function (tooltipItem) {
-          console.log(typeof tooltipItem);
           let itemIndex = tooltipItem.dataIndex;
           return (
             "Gross : " +
