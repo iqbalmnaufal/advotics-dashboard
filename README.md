@@ -15,13 +15,22 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## How to install this project?
 
 First, clone the repository
-### `git clone https://github.com/iqbalmnaufal/advotics-dashboard.git`
+```
+git clone https://github.com/iqbalmnaufal/advotics-dashboard.git
+```
 or if you're using SSH
-## `git@github.com:iqbalmnaufal/advotics-dashboard.git`
+```
+git@github.com:iqbalmnaufal/advotics-dashboard.git
+```
 then go to the directory of the repository
-## cd advotics-dashboard
+```
+cd advotics-dashboard
+```
 Run this command to install the project to your computer
-### `npm start`
-
+```
+npm start
+```
 for build this project, you can use this command
-### `npm run build`
+```
+npm run build
+```
