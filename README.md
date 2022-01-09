@@ -2,13 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-##Ingredients
+## Ingredients
 
 - React.js
 - React-chart-js
 - React-date-range
 
-##System Requirements
+## System Requirements
 - Node >= 14.0.0
 - NPM >= 5.6
 
