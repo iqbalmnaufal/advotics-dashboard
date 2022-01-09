@@ -1,24 +1,17 @@
-import {
-  Chart as ChartJS,
-  LinearScale,
-  CategoryScale,
-  BarElement,
-  PointElement,
-  LineElement,
-  Legend,
-  Tooltip,
-} from "chart.js";
+import { Chart as ChartJS, registerables } from "chart.js";
 import { Chart } from "react-chartjs-2";
 
-ChartJS.register(
-  LinearScale,
-  CategoryScale,
-  BarElement,
-  PointElement,
-  LineElement,
-  Legend,
-  Tooltip
-);
+// ChartJS.register(
+//   LinearScale,
+//   CategoryScale,
+//   BarElement,
+//   PointElement,
+//   LineElement,
+//   Legend,
+//   Tooltip,
+//   registerables
+// );
+ChartJS.register(...registerables);
 
 const data = {
   labels: ["Jan 12", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
@@ -59,6 +52,7 @@ const option = {
           return "Date/Month/Year";
         },
         beforeLabel: function (tooltipItem) {
+          console.log(typeof tooltipItem);
           let itemIndex = tooltipItem.dataIndex;
           return (
             "Gross : " +
