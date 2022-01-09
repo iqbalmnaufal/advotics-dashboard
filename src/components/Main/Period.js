@@ -63,18 +63,20 @@ const Period = () => {
 
   const closeDate = () => {
     console.log("TES");
-    setIsShow(false);
+    setIsShow((val) => !val);
   };
 
   return (
-    <div className={classes.container} onClick={chooseDate}>
-      <div className={classes.title}>
-        <img src={Calender} alt="calender" />
-        <h2>Period</h2>
+    <div>
+      <div className={classes.container} onClick={closeDate}>
+        <div className={classes.title}>
+          <img src={Calender} alt="calender" />
+          <h2>Period</h2>
+        </div>
+        <p className={classes.dateDetail}>
+          {firstDate} - {secondDate}
+        </p>
       </div>
-      <p className={classes.dateDetail}>
-        {firstDate} - {secondDate}
-      </p>
 
       {isShow && (
         <Modal onClose={closeDate}>
@@ -87,7 +89,9 @@ const Period = () => {
             direction="horizontal"
             className={classes.datePicker}
           />
-          ;
+          <button className={classes.button} onClick={closeDate}>
+            Apply
+          </button>
         </Modal>
       )}
     </div>
